@@ -1,0 +1,60 @@
+
+@charset "UTF-8";
+
+body {
+
+    background-color: darkslategray;
+}
+
+main {
+
+    max-width: 80%;
+    margin: auto;
+
+    background-color: slategray;
+    padding: 20px;
+}
+
+section {
+
+    padding: 20px;
+    padding-left: 350px;
+
+    display: flex;
+}
+
+#fokep {
+
+    border: 1px solid black;
+    width: 310px;
+    padding: 10px;
+}
+
+button {
+
+    background-color: rgb(118, 136, 153);
+}
+
+article {
+
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+article div {
+
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+#jobb {
+
+    float: right;
+}
+#bal {
+
+    float: left;
+}
